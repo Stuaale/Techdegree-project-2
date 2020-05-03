@@ -58,6 +58,7 @@ h3{
 
 h4{
   text-transform: uppercase;
+	font-size: 2em;
 }
 
 img{
@@ -73,6 +74,7 @@ img{
 	background: #cedae0;
 	margin-bottom: 1em;
 	margin-top: 0px;
+
 
 }
   .main-nav li {
@@ -97,7 +99,7 @@ img{
   }
 
 	.main-nav a:hover {
-		color: #093a58;
+		color: #53b1e0;
 	}
 
   .main-nav{
@@ -145,10 +147,19 @@ img{
   width: 100%
 }
 
+.third-wrapper{
+	background: white;
+  width: 100%;
+	position: relative;
+	text-align: center;
+	background: #d9e4ea;
+}
+
 .name{
 	margin-top: 0px;
 	text-shadow: 1px 1px 5px grey;
 	font-size: 2em;
+	font-family: 'Lemonada', cursive;
 }
 
 .intro{
@@ -160,6 +171,7 @@ img{
 	padding-bottom: 20px;
 	width: 100%;
 	display: block;
+
 }
 
 
@@ -189,6 +201,40 @@ padding-bottom: 1.2em;
   padding-right: 1.5em;
 }
 
+.skills-image{
+	opacity: 20%;
+	height: 300px;
+}
+
+.skills{
+	color: #093a58;
+	font-size: 2em;
+	font-family: 'Lemonada', cursive;
+	text-shadow: 1px 1px 5px grey;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	margin: 0px;
+}
+
+
+.skill-list{
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	line-height: 2.2em;
+	margin-top: 3em;
+}
+
+
+.skill-li{
+	font-size: 1.4em;
+	color: #093a58;
+	text-transform: uppercase;
+
+}
+
 .contact{
 text-align: center;
 padding-left: 1em;
@@ -209,7 +255,6 @@ padding-top: 3em;
   margin-top: 30px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: none;
   height: 50px;
   width: 180px;
   font-size: 16px;
@@ -226,6 +271,7 @@ padding-top: 3em;
   height: 50px;
   width: 180px;
 	text-shadow: 1px 1px 5px grey;
+	font-family: 'Lemonada', cursive;
 }
 
 .email{
@@ -311,7 +357,7 @@ main{
 	font-size: 1.2em;
 }
 
-
+}
 /* ---- New Media Query for Desktop---- */
 
 @media (min-width: 1024px) {
@@ -364,14 +410,35 @@ ul{
 	min-height: 450px;
 }
 
+.skills-image{
+	opacity: 20%;
+	height: 400px;
+}
+
+.skills{
+	color: #093a58;
+	font-size: 2.5em;
+	font-family: 'Lemonada', cursive;
+	text-shadow: 1px 1px 5px grey;
+	padding-top: 1.2em;
+	padding-bottom: 1em;
+	margin: 0px;
+}
 
 
+
+.skill-li{
+	font-size: 2.5em;
+	line-height: .5em;
+	margin-top: 1em;
+}
 
 }
+
 /* ---- Float clearfix ---- */
 
 .clearfix::after {
-  content: " ";
-  display: table;
+  content: "";
   clear: both;
+  display: table;
 }
